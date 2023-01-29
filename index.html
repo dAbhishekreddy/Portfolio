@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+   
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo"></h1>
+  
+        <nav>
+          <ul>
+            <li><a href="#1">Home</a></li>
+            <li><a href="#2">Skills</a></li>
+            <li><a href="#3">Project</a></li>
+            <li><a href="#4">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div id="1">
+      <section class="blue">
+        <h1>Hi I am Abhishek</h1>
+        <img src="name.png">
+        <p>I like <span class="auto-type"></span></p>
+        <div class="curve"></div>
+      </section>
+    </div>  
+
+    <section class="second">
+      <h1>ME!</h1>
+      <p>Currently Studying in the third year in CSE, I like to code and keen to learn and know about new technologies. I am much interested in front development, and other than that also good at video editing and photoshopping. Currently  I am focused in competitve coding and development and exploring new things like designing. </p>
+    </section>
+    <div id="2">
+    <section class="bubble">
+      <h1>MY SKILLS!</h1>
+      <h2> HERE ARE LIST OF SOME OF MY SKILLS.</h2>
+        <div class="two">
+          <div class="three">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Circle-icons-computer.svg/768px-Circle-icons-computer.svg.png">
+          </div>
+          <div class="four">
+            <p>Python</p>
+          </div>
+          <div class="three">
+            <img src="https://cdn-icons-png.flaticon.com/512/6132/6132222.png">
+          </div>
+          <div class="four">
+            <p>C++</p>
+          </div>
+          <div class="three">
+            <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/c_original_logo_icon_146611.png">
+          </div>
+          <div class="four">
+            <p>C</p>
+          </div>
+          <div class="three">
+            <img src="https://cdn-icons-png.flaticon.com/512/2620/2620735.png">
+          </div>
+          <div class="four">
+            <p>FRONT END</p>
+          </div>
+        </div>
+    </section>
+    </div>
+
+    <section class="dark">
+      <h1>EDUCATION</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>EDUCATION</th>
+            <th>RESULT</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>10TH</td>
+            <td>9.7 CGPA</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>INTEMEDIATE</td>
+            <td>95.7%</td>
+          </tr>
+          <tr>
+            <td>BACHELORS IN TECHNOLOGY</td>
+            <td>SRM UNIVERSITY</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+
+    <section class="red">
+      <h1>CERTIFICATIONS</h1>
+      <p>AWS CERTIFIED IN CLOUD OPERATIONS</p>
+      <p>IBM CERTIFIED IN DATA SCIENCE</p>
+      <div class="wave">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- <div class="spacer layer1"></div>
+
+    <section>
+      <h1>Nice 1Curves!</h1>
+      <p>A website is like a road. The more curves it has the more interesting it is.</p>
+    </section>
+
+    <div class="spacer layer2 flip"></div> -->
+    <div id="3">
+    <section class="pink">
+      <div class="blob-content">
+        <h1>PROJECTS</h1> 
+        <div class="cards">
+          <article class="card">
+              <header>
+                  <h2>ZOMATO LANDING PAGE</h2>
+              </header>    
+              <img src="data:image/png;base64,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" alt="Hot air balloons">
+              <div class="content">
+                  <p> Working on creating clone of zomato food delivering website  </p>
+              </div>
+                  
+          </article>
+          <article class="card">
+              <header>
+                  <h2>ONLINE CLINIC APPOINTMENT SYSTEM</h2>
+              </header>
+              <img src="https://static.vecteezy.com/system/resources/previews/002/127/134/original/medical-and-healthcare-concept-illustration-schedule-medical-check-up-flat-design-with-doctor-can-use-for-the-homepage-mobile-apps-character-cartoon-illustration-flat-style-free-vector.jpg" alt="Hot air balloons">
+              <div class="content">
+                  <p>Building website on online medical appointment system</p>
+              </div>
+      
+          </article>
+      </div>
+                  
+          
+      </div>
+
+      <svg
+        class="blob-motion"
+        id="visual"
+        viewBox="0 0 960 540"
+        width="960"
+        height="540"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+      >
+        <g transform="translate(450.7256843113689 283.4942824330989)">
+          <path
+            id="blob1"
+            d="M148.7 -134.9C193.7 -103.7 231.9 -51.9 232.4 0.6C233 53 196.1 106.1 151.1 128.6C106.1 151.1 53 143 -4.4 147.4C-61.8 151.8 -123.5 168.5 -151.2 146C-178.8 123.5 -172.4 61.8 -172.8 -0.4C-173.1 -62.5 -180.3 -124.9 -152.6 -156.1C-124.9 -187.3 -62.5 -187.1 -5.3 -181.8C51.9 -176.5 103.7 -166 148.7 -134.9"
+            fill="#BB004B"
+          ></path>
+        </g>
+        <g transform="translate(509.54377535978017 281.49390864595887)" style="visibility: hidden">
+          <path
+            id="blob2"
+            d="M115.4 -137.9C137.9 -92.9 136.4 -46.4 133.6 -2.8C130.8 40.8 126.6 81.6 104.1 118.4C81.6 155.2 40.8 188.1 -8.4 196.5C-57.5 204.8 -115 188.7 -151 151.9C-187 115 -201.5 57.5 -190.8 10.7C-180.1 -36.1 -144.1 -72.1 -108.1 -117.1C-72.1 -162.1 -36.1 -216.1 5.2 -221.2C46.4 -226.4 92.9 -182.9 115.4 -137.9"
+            fill="#BB004B"
+          ></path>
+        </g>
+      </svg>
+
+      <script>
+        const tween = KUTE.fromTo(
+          '#blob1',
+          { path: '#blob1' },
+          { path: '#blob2' },
+          { repeat: 999, duration: 3000, yoyo: true }
+        ).start();
+      </script>
+    </section>
+  </div>
+
+    <!-- <div class="spacer layer2"></div> -->
+
+    <!-- <section class="blobs">
+    </section> -->
+   <div id="4">
+    <div class="b">
+      <div class="c">
+        <a href="https://www.instagram.com/invites/contact/?i=1i7w1w26qxudp&utm_content=9yv657q">
+        <img src="https://assets.chaminade.edu/wp-content/uploads/2019/08/08073853/Instagram-Icon-color.png">
+      </a>
+      </div>
+      <div class="c">
+        <a href="https://twitter.com/Abhishe56361028?t=FmNmi9dJRKg8WHTDyrLvcg&s=08">
+        <img src="https://img.icons8.com/color/480/twitter--v1.png">
+      </a>
+      </div>
+      <div class="c">
+        <a  href="https://github.com/dAbhishekreddy">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="border-radius: 35px;">
+      </a>
+      </div>
+      <div class="c">
+        <img src="https://cdn-icons-png.flaticon.com/512/6033/6033716.png">
+      </div>
+
+    </div>
+  </div>
+  <div id="footer">
+    <h5 >Email:abhishekreddydoppewar.123@gmail.com</h5>
+    <p ><i class="bi bi-c-circle"></i> All rights reserved</p>
+  </div> 
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".auto-type",{
+            strings:["Coding","Learning","Websurfing"],
+            typespeed:10,
+            backspeed:20,
+            loop:true
+        })
+    </script>
+  </body>
+</html>
